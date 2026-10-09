@@ -1,5 +1,7 @@
 # Agent Prompt Cache Benchmark (`agent-prompt-cache-bench`)
 
+[English](README.md) | [简体中文](README_ZH.md)
+
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Dependencies: 0](https://img.shields.io/badge/dependencies-0%20(std%20library)-brightgreen.svg)](https://github.com/)
@@ -98,7 +100,7 @@ Simulated across 5 agent sessions, 10 turns per session (50 total turns), with 8
 `agent-prompt-cache-bench` uses **0 external dependencies** and runs on any standard Python 3.9+ installation.
 
 ```bash
-git clone https://github.com/prognosticatex/agent-prompt-cache-bench.git
+git clone https://github.com/Prognosticate-X/agent-prompt-cache-bench.git
 cd agent-prompt-cache-bench
 pip install -e .
 ```
