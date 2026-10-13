@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-    { name = "Agent Architecture Team" }
+    { name = "Prognosticate X", email = "Prognosticate@Outlook.fr" }
 ]
 keywords = [
     "prompt-caching",
@@ -48,3 +48,9 @@ agent-cache-bench = "agent_prompt_cache_bench.cli:main"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["agent_prompt_cache_bench*"]
+
+[project.urls]
+Homepage = "https://github.com/Prognosticate-X/agent-prompt-cache-bench"
+Repository = "https://github.com/Prognosticate-X/agent-prompt-cache-bench"
+"Bug Tracker" = "https://github.com/Prognosticate-X/agent-prompt-cache-bench/issues"
+
